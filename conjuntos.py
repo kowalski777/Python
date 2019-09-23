@@ -38,7 +38,7 @@ def calculadora_conjuntos():
   conjunto_a = set(input("Conjunto A: ").split())
   conjunto_b = set(input("Conjunto B: ").split())
 
-  ver_instrucciones
+  ver_instrucciones()
   while True:
     	
     operacion = int(input(": "))
@@ -58,5 +58,9 @@ def calculadora_conjuntos():
       print("No reconozco esa operacion. Intenta de nuevo")
 
 calculadora_conjuntos()
+
+
+
+
 
 
